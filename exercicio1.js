@@ -1,6 +1,6 @@
 var anosUsuario = Number(prompt("Informe os anos"));
 var mesesUsuario = Number(prompt("Informe os meses"));
-var diasUsuario = Number(prompt("Informe os Dias "));
+var diasUsuario = Number(prompt("Informe os dias "));
 
 //função para subtrair os dias
 Date.prototype.subtrairDias = function(diasUsuario) {
