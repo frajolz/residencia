@@ -4,21 +4,21 @@ var diasUsuario = 0;
 
 //função para subtrair os dias
 Date.prototype.subtrairDias = function(diasUsuario) {
-    var date = new Date(this.valueOf());
+    var date = new Date;
     date.setDate(date.getDate() - diasUsuario);
     return date;
 }
 
 //função para subtrair os meses
 Date.prototype.subtrairMeses = function(mesesUsuario) {
-    var date = new Date(this.valueOf());
+    var date = new Date;
     date.setMonth(date.getMonth() - mesesUsuario);
     return date;
 }
 
 //função para subtrair os anos
 Date.prototype.subtrairAnos = function(anosUsuario) {
-    var date = new Date(this.valueOf());
+    var date = new Date;
     date.setFullYear(date.getFullYear() - anosUsuario);
     return date;
 }
